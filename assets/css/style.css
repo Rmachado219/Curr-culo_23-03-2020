@@ -1,0 +1,29 @@
+/* Resets */
+* {
+    /* border: 1px solid rgba(0, 255, 149, 0.795);
+    background-color: rgba(0, 255, 149, 0.1); */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+ul {
+    list-style: none;
+}
+li:first-child,
+hr {
+    margin: 20px 0;
+}
+aside,
+main {
+    margin: 20px 40px;
+    border: 2px groove brown;
+    border-radius: 10px;
+    padding: 15px;
+}
+img {
+    border-radius: 50%;
+}
+img:hover {
+    transform: rotate(30deg);
+}
