@@ -7,6 +7,9 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+h1 {
+    margin: 10px 20px;
+}
 ul {
     list-style: none;
 }
@@ -23,6 +26,8 @@ main {
 }
 img {
     border-radius: 50%;
+    margin-bottom: 30px;
+    margin-left: 10px;
 }
 img:hover {
     transform: rotate(30deg);
